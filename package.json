@@ -4,12 +4,15 @@
   "description": "A basic app to deploy",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "Basic",
     "Intro"
   ],
   "author": "Yash Ladda",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.2"
+  }
 }
