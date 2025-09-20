@@ -5,7 +5,7 @@ const app = express()
 const port = 4000
 
 
-app.listen(provess.env.PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log(`Example app listening on port ${port}`)
 })
 
